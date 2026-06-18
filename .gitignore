@@ -1,9 +1,0 @@
-.DS_Store
-.env
-*.log
-
-config/config.local.php
-
-uploads/*
-!uploads/cv/
-!uploads/cv/.htaccess

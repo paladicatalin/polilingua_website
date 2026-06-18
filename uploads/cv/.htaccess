@@ -1,9 +1,0 @@
-Options -Indexes
-
-<IfModule mod_headers.c>
-  Header set X-Content-Type-Options "nosniff"
-</IfModule>
-
-<FilesMatch "\.(php|phps|php[34567]?|phtml)$">
-  Require all denied
-</FilesMatch>

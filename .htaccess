@@ -1,5 +1,0 @@
-Options -Indexes
-
-RewriteEngine On
-RewriteRule ^(config|includes)(/|$) - [F,L]
-RewriteRule ^\.env$ - [F,L]
